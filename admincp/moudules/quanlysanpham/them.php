@@ -1,6 +1,6 @@
 <p class="title_them">Thêm Sản Phẩm</p>
 <table border="1" width="100%" style="border-collapse: collapse;">
-    <form method="POST" action="moudules/quanlysanpham/xuly.php">
+    <form method="POST" action="moudules/quanlysanpham/xuly.php" enctype="multipart/form-data">
         <tr>
             <td>Mã sản phẩm</td>
             <td><input style="width:50%;" type="text" name="masp"></td>

@@ -5,10 +5,10 @@ $query_sua_sp = mysqli_query($mysqli, $sql_sua_sp);
 
 <p class="title_them">Sửa Sản Phẩm</p>
 <table border="1" width="100%" style="border-collapse: collapse;">
-    <form method="POST" action="moudules/quanlysanpham/xuly.php?idsanpham=<?php echo $_GET['idsanpham'] ?>">
-        <?php
-        while ($dong = mysqli_fetch_array($query_sua_sp)) {
-        ?>
+    <?php
+    while ($dong = mysqli_fetch_array($query_sua_sp)) {
+    ?>
+        <form method="POST" action="moudules/quanlysanpham/xuly.php?idsanpham=<?php echo $dong['id_sanpham'] ?>" enctype="multipart/form-data">
             <tr>
                 <td>Mã sản phẩm</td>
                 <td><input style="width:50%;" type="text" name="masp" value="<?php echo $dong['masp'] ?>"></td>
@@ -24,20 +24,23 @@ $query_sua_sp = mysqli_query($mysqli, $sql_sua_sp);
 
             <tr>
                 <td>Hình ảnh</td>
-                <td><input type="file" name="hinhanh" value="<?php echo $dong['hinhanh'] ?>"></td>
+                <td>
+                    <input type="file" name="hinhanh">
+                    <img src="moudules/quanlysanpham/uploadImg/<?php echo $dong['hinhanh'] ?>" width="150px">
+                </td>
             </tr>
 
             <tr>
                 <td>Nội dung</td>
-                <td><textarea row="10" width="100%" style="resize: none;" name="noidung" value="<?php echo $dong['noidung'] ?>"></textarea></td>
+                <td><textarea row="10" width="100%" style="resize: none;" name="noidung"><?php echo $dong['noidung'] ?></textarea></td>
             </tr>
 
             <tr>
                 <td colspan="2"><input type="submit" name="suasanpham" value="Sửa Sản Phẩm"></td>
             </tr>
-        <?php
-        }
-        ?>
 
-    </form>
+        </form>
+    <?php
+    }
+    ?>
 </table>
