@@ -6,11 +6,11 @@
 <html class="no-js">
 <!--<![endif]-->
 
-<!-- Mirrored from www.proteusthemes.com/themes/webmarket-html/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 09 Aug 2015 14:57:07 GMT -->
+<!-- Mirrored from www.proteusthemes.com/themes/webmarket-html/product.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 09 Aug 2015 15:43:09 GMT -->
 
 <head>
     <meta charset="utf-8">
-    <title>Webmarket HTML Template - Home Page</title>
+    <title>Webmarket HTML Template - Product Page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="ProteusThemes">
@@ -56,6 +56,9 @@
     include('admincp/config/connect.php');
     ?>
     <div class="master-wrapper">
+
+
+
         <header id="header">
             <div class="darker-row">
                 <div class="container">
@@ -109,7 +112,7 @@
 
 
                     <div class="span7">
-                        <a class="brand" href="index-2.html">
+                        <a class="brand" href="index.php">
                             <img src="images/logo.png" alt="Webmarket Logo" width="48" height="48" />
                             <span class="pacifico">Webmarket</span>
                             <span class="tagline">Really Cool e-Commerce HTML Template</span>
@@ -154,13 +157,13 @@
 
                             <div class="nav-collapse collapse">
                                 <ul class="nav" id="mainNavigation">
-                                    <li class="dropdown active">
+                                    <li class="dropdown">
                                         <a href="index-2.html" class="dropdown-toggle"> Home <b class="caret"></b> </a>
                                         <ul class="dropdown-menu">
-                                            <li class="dropdown active">
+                                            <li class="dropdown">
                                                 <a href="index-2.html"><i class="icon-caret-right pull-right visible-desktop"></i> Color Themes</a>
                                                 <ul class="dropdown-menu">
-                                                    <li class="active"><a href="index-2.html">Default Theme</a></li>
+                                                    <li><a href="index-2.html">Default Theme</a></li>
                                                     <li><a href="index-grass-green.html">Grass Green Theme</a></li>
                                                     <li><a href="index-oil-green.html">Oil Green Theme</a></li>
                                                     <li><a href="index-gray.html">Gray Theme</a></li>
@@ -175,7 +178,7 @@
                                             </li>
                                         </ul>
                                     </li>
-                                    <li class="dropdown dropdown-supermenu">
+                                    <li class="dropdown dropdown-supermenu active">
                                         <a href="shop.html" class="dropdown-toggle"> Shop <b class="caret"></b> </a>
                                         <ul class="dropdown-menu supermenu accepts-5">
                                             <li class="row">
@@ -184,7 +187,7 @@
                                                         <li><a href="shop.html">Grid View</a></li>
                                                         <li><a href="shop-list-view.html">List View</a></li>
                                                         <li><a href="shop-no-sidebar.html">Full Width</a></li>
-                                                        <li><a href="product.html">Single Product</a></li>
+                                                        <li class="active"><a href="product.html">Single Product</a></li>
                                                         <li><a href="shop-search.html">Search Results</a></li>
                                                     </ul>
                                                 </div>
@@ -213,7 +216,7 @@
                                                 </div>
                                                 <div class="span2">
                                                     <ul class="nav nav-pills nav-stacked">
-                                                        <li><a href="#">Eros Condimentum</a></li>
+                                                        <li><a href="#">Consectetur Elit</a></li>
                                                     </ul>
                                                     <ul class="nav unstyled">
                                                         <li><a href="#">Evening Tops</a></li>
@@ -221,25 +224,7 @@
                                                         <li><a href="#">Tunics</a></li>
                                                     </ul>
                                                     <ul class="nav nav-pills nav-stacked">
-                                                        <li><a href="#">Tincidunt Vel</a></li>
-                                                    </ul>
-                                                    <ul class="nav unstyled">
-                                                        <li><a href="#">Evening Tops</a></li>
-                                                        <li><a href="#">Shirts &amp; Blouses</a></li>
-                                                        <li><a href="#">Tunics</a></li>
-                                                    </ul>
-                                                </div>
-                                                <div class="span2">
-                                                    <ul class="nav nav-pills nav-stacked">
-                                                        <li><a href="#">Est Feugiat</a></li>
-                                                    </ul>
-                                                    <ul class="nav unstyled">
-                                                        <li><a href="#">Evening Tops</a></li>
-                                                        <li><a href="#">Shirts &amp; Blouses</a></li>
-                                                        <li><a href="#">Tunics</a></li>
-                                                    </ul>
-                                                    <ul class="nav nav-pills nav-stacked">
-                                                        <li><a href="#">Tincidunt Ac</a></li>
+                                                        <li><a href="#">Lorem Ac</a></li>
                                                     </ul>
                                                     <ul class="nav unstyled">
                                                         <li><a href="#">Evening Tops</a></li>
@@ -249,7 +234,7 @@
                                                 </div>
                                                 <div class="span2">
                                                     <ul class="nav nav-pills nav-stacked">
-                                                        <li><a href="#">Lorem Adipiscing</a></li>
+                                                        <li><a href="#">Amet Ut</a></li>
                                                     </ul>
                                                     <ul class="nav unstyled">
                                                         <li><a href="#">Evening Tops</a></li>
@@ -257,7 +242,25 @@
                                                         <li><a href="#">Tunics</a></li>
                                                     </ul>
                                                     <ul class="nav nav-pills nav-stacked">
-                                                        <li><a href="#">Felis Sit</a></li>
+                                                        <li><a href="#">Neque Metus</a></li>
+                                                    </ul>
+                                                    <ul class="nav unstyled">
+                                                        <li><a href="#">Evening Tops</a></li>
+                                                        <li><a href="#">Shirts &amp; Blouses</a></li>
+                                                        <li><a href="#">Tunics</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="span2">
+                                                    <ul class="nav nav-pills nav-stacked">
+                                                        <li><a href="#">Vivamus Metus</a></li>
+                                                    </ul>
+                                                    <ul class="nav unstyled">
+                                                        <li><a href="#">Evening Tops</a></li>
+                                                        <li><a href="#">Shirts &amp; Blouses</a></li>
+                                                        <li><a href="#">Tunics</a></li>
+                                                    </ul>
+                                                    <ul class="nav nav-pills nav-stacked">
+                                                        <li><a href="#">Consectetur Sit</a></li>
                                                     </ul>
                                                     <ul class="nav unstyled">
                                                         <li><a href="#">Evening Tops</a></li>
@@ -358,7 +361,7 @@
                                             <img src="images/dummy/cart-items/cart-item-1.jpg" width="124" height="124" alt="cart item" />
                                         </div>
                                         <div class="desc">
-                                            <strong><a href="product.html">Adipiscing Vel Vel Felis</a></strong>
+                                            <strong><a href="product.html">Lorem Tincidunt Est</a></strong>
                                             <span class="light-clr qty">
                                                 Qty: 1
                                                 &nbsp;
@@ -366,7 +369,7 @@
                                             </span>
                                         </div>
                                         <div class="price">
-                                            <strong>$5914</strong>
+                                            <strong>$5636</strong>
                                         </div>
                                     </div>
                                     <div class="item-in-cart clearfix">
@@ -374,7 +377,7 @@
                                             <img src="images/dummy/cart-items/cart-item-2.jpg" width="124" height="124" alt="cart item" />
                                         </div>
                                         <div class="desc">
-                                            <strong><a href="product.html">Adipiscing Sed Ac Felis Ut</a></strong>
+                                            <strong><a href="product.html">Tincidunt Dapibus Eros Sit Feugiat Condimentum</a></strong>
                                             <span class="light-clr qty">
                                                 Qty: 1
                                                 &nbsp;
@@ -382,7 +385,7 @@
                                             </span>
                                         </div>
                                         <div class="price">
-                                            <strong>$4644</strong>
+                                            <strong>$2789</strong>
                                         </div>
                                     </div>
                                     <div class="item-in-cart clearfix">
@@ -390,7 +393,7 @@
                                             <img src="images/dummy/cart-items/cart-item-3.jpg" width="124" height="124" alt="cart item" />
                                         </div>
                                         <div class="desc">
-                                            <strong><a href="product.html">Amet Sed Nisi</a></strong>
+                                            <strong><a href="product.html">Dolor Adipiscing Vulputate Est Eros</a></strong>
                                             <span class="light-clr qty">
                                                 Qty: 1
                                                 &nbsp;
@@ -398,7 +401,7 @@
                                             </span>
                                         </div>
                                         <div class="price">
-                                            <strong>$5059</strong>
+                                            <strong>$6053</strong>
                                         </div>
                                     </div>
                                     <div class="summary">
@@ -429,184 +432,81 @@
 
 
 
-        <div class="fullwidthbanner-container">
-            <div class="fullwidthbanner">
-                <ul>
-                    <li data-transition="premium-random" data-slotamount="3">
-                        <img src="images/dummy/slides/1/slide.jpg" alt="slider img" width="1400" height="377" />
-
-                        <div class="caption lft ltt" data-x="570" data-y="50" data-speed="4000" data-start="1000" data-easing="easeOutElastic">
-                            <img src="images/dummy/slides/1/baloon1.png" alt="baloon" width="135" height="186" />
-                        </div>
-                        <div class="caption lft ltt" data-x="770" data-y="60" data-speed="4000" data-start="1200" data-easing="easeOutElastic">
-                            <img src="images/dummy/slides/1/baloon3.png" alt="baloon" width="40" height="55" />
-                        </div>
-                        <div class="caption lft ltt" data-x="870" data-y="80" data-speed="4000" data-start="1500" data-easing="easeOutElastic">
-                            <img src="images/dummy/slides/1/baloon2.png" alt="baloon" width="60" height="83" />
-                        </div>
-
-                        <div class="caption lfl big_theme" data-x="120" data-y="120" data-speed="1000" data-start="500" data-easing="easeInOutBack">
-                            With Webmarket, the Sky Is the Limit
-                        </div>
-                        <div class="caption lfl small_theme" data-x="120" data-y="190" data-speed="1000" data-start="700" data-easing="easeInOutBack">
-                            Take a tour on Webmarket HTML Template
-                        </div>
-                        <a href="features.html" class="caption lfl btn btn-primary btn_theme" data-x="120" data-y="260" data-speed="1000" data-start="900" data-easing="easeInOutBack">
-                            ALL THEME FEATURES
-                        </a>
-                    </li>
-                    <li data-transition="premium-random" data-slotamount="3">
-                        <img src="images/dummy/slides/2/slide.jpg" alt="slider img" width="1400" height="377" />
-
-                        <div class="caption lfb ltb" data-x="800" data-y="50" data-speed="1000" data-start="1000" data-easing="easeInOutCubic">
-                            <img src="images/dummy/slides/2/woman.png" alt="woman" width="361" height="374" />
-                        </div>
-
-                        <div class="caption lfl str" data-x="400" data-y="20" data-speed="10000" data-start="1000" data-easing="linear">
-                            <img src="images/dummy/slides/2/plane.png" alt="aircraft" width="117" height="28" />
-                        </div>
-
-                        <div class="caption lfl big_theme" data-x="120" data-y="120" data-speed="1000" data-start="500" data-easing="easeInOutBack">
-                            Slider Revolution
-                        </div>
-                        <div class="caption lfl small_theme" data-x="120" data-y="190" data-speed="1000" data-start="700" data-easing="easeInOutBack">
-                            This premium slider comes with the theme, as a bonus, for FREE!
-                        </div>
-                        <a href="features.html" class="caption lfl btn btn-primary btn_theme" data-x="120" data-y="260" data-speed="1000" data-start="900" data-easing="easeInOutBack">
-                            AND MANY MORE ...
-                        </a>
-                    </li>
-                    <li data-transition="premium-random" data-slotamount="3">
-                        <img src="images/dummy/slides/3/slide.jpg" alt="slider img" width="1400" height="377" />
-
-                        <div class="caption sfr fadeout" data-x="950" data-y="77" data-speed="1000" data-start="2500" data-easing="easeInOutCubic">
-                            <img src="images/dummy/slides/3/phone.png" alt="phone in a hand" width="495" height="377" />
-                        </div>
-
-                        <div class="caption lfl big_theme" data-x="120" data-y="120" data-speed="1000" data-start="500" data-easing="easeInOutBack">
-                            We Are Mobile Ready
-                        </div>
-                        <div class="caption lfl small_theme" data-x="120" data-y="190" data-speed="1000" data-start="700" data-easing="easeInOutBack">
-                            Try to resize the browser window. The Webmarket will look awesome no matter the device screen resolution!
-                        </div>
-                        <a href="icons.html" class="caption lfl btn btn-primary btn_theme" data-x="120" data-y="260" data-speed="1000" data-start="900" data-easing="easeInOutBack">
-                            And also all the icons are retina-ready...
-                        </a>
-                    </li>
-                    <li data-transition="premium-random" data-slotamount="3">
-                        <img src="images/dummy/slides/4/slide.jpg" alt="slider img" width="1400" height="377" />
-
-                        <div class="caption lft ltt" data-x="-150" data-y="0" data-speed="300" data-start="2000" data-easing="easeInOutCubic">
-                            <img src="images/dummy/slides/4/person1.png" alt="satisfied customer" width="108" height="204" />
-                        </div>
-                        <div class="caption lft ltt" data-x="0" data-y="0" data-speed="300" data-start="2200" data-easing="easeInOutCubic">
-                            <img src="images/dummy/slides/4/person2.png" alt="satisfied customer" width="108" height="321" />
-                        </div>
-                        <div class="caption lft ltt" data-x="500" data-y="0" data-speed="300" data-start="2400" data-easing="easeInOutCubic">
-                            <img src="images/dummy/slides/4/person3.png" alt="satisfied customer" width="108" height="139" />
-                        </div>
-                        <div class="caption lft ltt" data-x="720" data-y="0" data-speed="300" data-start="2600" data-easing="easeInOutCubic">
-                            <img src="images/dummy/slides/4/person4.png" alt="satisfied customer" width="108" height="191" />
-                        </div>
-                        <div class="caption lft ltt" data-x="940" data-y="0" data-speed="300" data-start="2800" data-easing="easeInOutCubic">
-                            <img src="images/dummy/slides/4/person5.png" alt="satisfied customer" width="108" height="139" />
-                        </div>
-                        <div class="caption lft ltt" data-x="1200" data-y="0" data-speed="300" data-start="3000" data-easing="easeInOutCubic">
-                            <img src="images/dummy/slides/4/person6.png" alt="satisfied customer" width="108" height="179" />
-                        </div>
-                        <div class="caption lft ltt" data-x="1350" data-y="0" data-speed="300" data-start="3200" data-easing="easeInOutCubic">
-                            <img src="images/dummy/slides/4/person7.png" alt="satisfied customer" width="108" height="133" />
-                        </div>
-
-                        <div class="caption lfl big_theme" data-x="120" data-y="140" data-speed="1000" data-start="500" data-easing="easeInOutBack">
-                            Over 1000 Satisfied Customers
-                        </div>
-                        <div class="caption lfl small_theme" data-x="120" data-y="210" data-speed="1000" data-start="700" data-easing="easeInOutBack">
-                            Take a look at our profile page on the <a href="http://themeforest.net/user/ProteusThemes" target="_blank">ThemeForest</a>!
-                        </div>
-                        <a href="http://support.proteusthemes.com/" class="caption lfl btn btn-primary btn_theme" data-x="120" data-y="280" data-speed="1000" data-start="900" data-easing="easeInOutBack">
-                            We provide support
-                        </a>
-                    </li>
-                </ul>
-                <div class="tp-bannertimer"></div>
+        <div class="darker-stripe">
+            <div class="container">
+                <div class="row">
+                    <div class="span12">
+                        <ul class="breadcrumb">
+                            <li>
+                                <a href="index-2.html">Webmarket</a>
+                            </li>
+                            <li><span class="icon-chevron-right"></span></li>
+                            <li>
+                                <a href="shop.html">Shop</a>
+                            </li>
+                            <li><span class="icon-chevron-right"></span></li>
+                            <li>
+                                <a href="#">Horsefeathers</a>
+                            </li>
+                            <li><span class="icon-chevron-right"></span></li>
+                            <li>
+                                <a href="product.html">Horsefeathers Shot Surfers T-shirt</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-
-
-
-            <div id="sliderRevLeft"><i class="icon-chevron-left"></i></div>
-            <div id="sliderRevRight"><i class="icon-chevron-right"></i></div>
         </div>
 
 
 
         <div class="container">
-            <div class="row">
-                <div class="span12">
-                    <div class="push-up over-slider blocks-spacer">
-
-
-
-                        <div class="row">
-                            <div class="span4">
-                                <a href="#" class="btn btn-block banner">
-                                    <span class="title"><span class="light">SUMMER</span> SALE</span>
-                                    <em>up to 60% off on all shoes</em>
-                                </a>
+            <div class="push-up top-equal blocks-spacer">
+                <?php
+                include('page/detailProducts.php');
+                ?>
+                <div class="row">
+                    <div class="span12">
+                        <ul id="myTab" class="nav nav-tabs">
+                            <li class="active">
+                                <a href="#tab-1" data-toggle="tab">Details</a>
+                            </li>
+                            <li>
+                                <a href="#tab-2" data-toggle="tab">SIZING CHART</a>
+                            </li>
+                            <li>
+                                <a href="#tab-3" data-toggle="tab">COMMENTS</a>
+                            </li>
+                            <li>
+                                <a href="#tab-4" data-toggle="tab">SHIPPING DETAILS</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="fade in tab-pane active" id="tab-1">
+                                <h3>Product Description</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dui ante, vulputate at pellentesque eget, viverra ac dolor. Morbi interdum tortor non leo aliquam ac aliquet nulla porta. Morbi id dolor massa, ut ornare augue. Morbi tincidunt magna bibendum enim tristique tristique. Quisque a massa tellus, ac tempor magna. Sed eget ligula tellus, nec pellentesque dolor. Phasellus dictum, mauris non mollis ornare, turpis libero faucibus orci, at fringilla urna leo sodales libero. Aliquam nec lectus mauris. Morbi lectus quam, convallis vel euismod a, auctor non dui. Etiam a nisi risus.</p>
+                                <p>Phasellus velit quam, ultrices et hendrerit vitae, suscipit nec dui. Sed at ligula vitae ligula pellentesque dictum. Duis lobortis auctor ipsum vel placerat. Phasellus nisi odio, ornare eget faucibus et, accumsan nec mauris. per conubia nostra, per inceptos himenaeos. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dui ante, vulputate at pellentesque eget, viverra ac dolor.Etiam a nisi risus.</p>
+                                <h1>Heading H1 30px</h1>
+                                <h2>Heading H2 26px</h2>
+                                <h3>Heading H3 20px</h3>
+                                <h4>Heading H4 18px</h4>
+                                <h5>Heading H5 15px</h5>
+                                <p>Phasellus velit quam, ultrices et hendrerit vitae, suscipit nec dui. Sed at ligula vitae ligula pellentesque dictum. Duis lobortis auctor ipsum vel placerat. Phasellus nisi odio, ornare eget faucibus et, accumsan nec mauris. per conubia nostra, per inceptos himenaeos.</p>
                             </div>
-                            <div class="span4">
-                                <a href="#" class="btn btn-block colored banner">
-                                    <span class="title"><span class="light">FREE</span> SHIPPING</span>
-                                    <em>on orders over $69</em>
-                                </a>
+                            <div class="fade tab-pane" id="tab-2">
+                                <p>
+                                    Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.
+                                </p>
                             </div>
-                            <div class="span4">
-                                <a href="#" class="btn btn-block banner">
-                                    <span class="title"><span class="light">NEW</span> PRODUCTS</span>
-                                    <em>for running on lorem ipsum dolor</em>
-                                </a>
+                            <div class="fade tab-pane" id="tab-3">
+                                <p>
+                                    Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork. Williamsburg banh mi whatever gluten-free, carles pitchfork biodiesel fixie etsy retro mlkshk vice blog. Scenester cred you probably haven't heard of them, vinyl craft beer blog stumptown. Pitchfork sustainable tofu synth chambray yr.
+                                </p>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-
-            <div class="row featured-items blocks-spacer">
-                <div class="span12">
-
-
-
-                    <div class="main-titles lined">
-                        <h2 class="title"><span class="light">Featured</span> Products</h2>
-                        <div class="arrows">
-                            <a href="#" class="icon-chevron-left" id="featuredItemsLeft"></a>
-                            <a href="#" class="icon-chevron-right" id="featuredItemsRight"></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="span12">
-
-
-
-                    <div class="carouFredSel" data-autoplay="false" data-nav="featuredItems">
-                        <div class="slide">
-                            <div class="row">
-                                <!-- span4 -->
-                                <?php
-                                include("page/productSpan4.php");
-                                ?>
-
-                            </div>
-                        </div>
-                        <div class="slide">
-                            <div class="row">
-                                <!-- span4 -->
-                                <?php
-                                include("page/productSpan4.php");
-                                ?>
-
+                            <div class="fade tab-pane" id="tab-4">
+                                <p>
+                                    Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork. Williamsburg banh mi whatever gluten-free, carles pitchfork biodiesel fixie etsy retro mlkshk vice blog. Scenester cred you probably haven't heard of them, vinyl craft beer blog stumptown. Pitchfork sustainable tofu synth chambray yr. Another text here ...
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -616,7 +516,7 @@
 
 
 
-        <div class="boxed-area blocks-spacer">
+        <div class="boxed-area no-bottom">
             <div class="container">
 
 
@@ -624,145 +524,133 @@
                 <div class="row">
                     <div class="span12">
                         <div class="main-titles lined">
-                            <h2 class="title"><span class="light">New</span> Products in the Shop</h2>
+                            <h2 class="title"><span class="light">Related</span> Products</h2>
                         </div>
                     </div>
                 </div>
-                <div class="row popup-products blocks-spacer">
-                    <?php
-                    include("page/productSpan3.php")
-                    ?>
-                    <div class="clearfix"></div>
-                    <?php
-                    ?>
-
-                </div>
-            </div>
-        </div>
 
 
 
-        <div class="most-popular blocks-spacer">
-            <div class="container">
-
-
-
-                <div class="row">
-                    <div class="span12">
-                        <div class="main-titles lined">
-                            <h2 class="title"><span class="light">Most</span> Popular Products</h2>
-                        </div>
-                    </div>
-                </div>
                 <div class="row popup-products">
-                    <?php
-                    include("page/productSpan3.php");
-                    ?>
-                </div>
-            </div>
-        </div>
 
 
 
-        <div class="darker-stripe blocks-spacer more-space latest-news with-shadows">
-            <div class="container">
-
-
-
-                <div class="row">
-                    <div class="span12">
-                        <div class="main-titles center-align">
-                            <h2 class="title">
-                                <span class="clickable icon-chevron-left" id="tweetsLeft"></span> &nbsp;&nbsp;&nbsp;
-                                <span class="light">Latest</span> News &nbsp;&nbsp;&nbsp;
-                                <span class="clickable icon-chevron-right" id="tweetsRight"></span>
-                            </h2>
-                        </div>
-                    </div>
-                </div>
-
-
-
-                <div class="row">
-                    <div class="span12">
-                        <div class="carouFredSel" data-nav="tweets" data-autoplay="false">
-
-
-
-                            <div class="slide">
-                                <div class="row">
-                                    <div class="span6">
-                                        <div class="news-item">
-                                            <div class="published">12. July, 2013</div>
-                                            <h6><a href="#">Title of the Latest News</a></h6>
-                                            <p>There's a voice that keeps on calling me. Down the road, that's where I'll al ways be. Every stop I make, I make a new friend. Lorem sown the road, that's where I'll always be. Every stop I make, I make a new friend.</p>
-                                        </div>
-                                    </div>
-                                    <div class="span6">
-                                        <div class="news-item">
-                                            <div class="published">18. July, 2013</div>
-                                            <h6><a href="#">Another Amusing News</a></h6>
-                                            <p>There's a voice that keeps on calling me. Down the road, that's where I'll al ways be. Every stop I make, I make a new friend. Lorem sown the road, that's where I'll always be. Every stop I make, I make a new friend.</p>
+                    <div class="span3">
+                        <div class="product">
+                            <div class="product-inner">
+                                <div class="product-img">
+                                    <div class="picture">
+                                        <a href="product.html"><img src="images/dummy/products/product-1.jpg" alt="" width="540" height="374" /></a>
+                                        <div class="img-overlay">
+                                            <a class="btn more btn-primary" href="product.html">More</a>
+                                            <a href="#" class="btn buy btn-danger">Add to Cart</a>
                                         </div>
                                     </div>
                                 </div>
+                                <div class="main-titles no-margin">
+                                    <h4 class="title"><span class="striked">$32</span> <span class="red-clr">$29</span></h4>
+                                    <h5 class="no-margin">Adidas Converse 552</h5>
+                                </div>
+                                <p class="desc">59% Cotton Lorem Ipsum Dolor Sit Amet esed ultrices sapien nunc nam frignila</p>
+                                <p class="center-align stars">
+                                    <span class="icon-star stars-clr"></span>
+                                    <span class="icon-star stars-clr"></span>
+                                    <span class="icon-star stars-clr"></span>
+                                    <span class="icon-star stars-clr"></span>
+                                    <span class="icon-star"></span>
+                                </p>
                             </div>
+                        </div>
+                    </div>
 
 
 
-                            <div class="slide">
-                                <div class="row">
-                                    <div class="span6">
-                                        <div class="news-item">
-                                            <div class="published">12. July, 2013</div>
-                                            <h6><a href="#">Title of the Latest News</a></h6>
-                                            <p>There's a voice that keeps on calling me. Down the road, that's where I'll al ways be. Every stop I make, I make a new friend. Lorem sown the road, that's where I'll always be. Every stop I make, I make a new friend.</p>
-                                        </div>
-                                    </div>
-                                    <div class="span6">
-                                        <div class="news-item">
-                                            <div class="published">18. July, 2013</div>
-                                            <h6><a href="#">Another Amusing News</a></h6>
-                                            <p>There's a voice that keeps on calling me. Down the road, that's where I'll al ways be. Every stop I make, I make a new friend. Lorem sown the road, that's where I'll always be. Every stop I make, I make a new friend.</p>
+                    <div class="span3">
+                        <div class="product">
+                            <div class="product-inner">
+                                <div class="product-img">
+                                    <div class="picture">
+                                        <a href="product.html"><img src="images/dummy/products/product-2.jpg" alt="" width="540" height="374" /></a>
+                                        <div class="img-overlay">
+                                            <a class="btn more btn-primary" href="product.html">More</a>
+                                            <a href="#" class="btn buy btn-danger">Add to Cart</a>
                                         </div>
                                     </div>
                                 </div>
+                                <div class="main-titles no-margin">
+                                    <h4 class="title"><span class="striked">$32</span> <span class="red-clr">$29</span></h4>
+                                    <h5 class="no-margin">Adidas Converse 552</h5>
+                                </div>
+                                <p class="desc">59% Cotton Lorem Ipsum Dolor Sit Amet esed ultrices sapien nunc nam frignila</p>
+                                <p class="center-align stars">
+                                    <span class="icon-star stars-clr"></span>
+                                    <span class="icon-star stars-clr"></span>
+                                    <span class="icon-star stars-clr"></span>
+                                    <span class="icon-star stars-clr"></span>
+                                    <span class="icon-star"></span>
+                                </p>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
 
 
 
-        <div class="container blocks-spacer-last">
-
-
-
-            <div class="row">
-                <div class="span12">
-                    <div class="main-titles lined">
-                        <h2 class="title"><span class="light">Our</span> Brands</h2>
-                        <div class="arrows">
-                            <a class="clickable  icon-chevron-left" id="brandsLeft"></a>
-                            <a class="clickable  icon-chevron-right" id="brandsRight"></a>
+                    <div class="span3">
+                        <div class="product">
+                            <div class="product-inner">
+                                <div class="product-img">
+                                    <div class="picture">
+                                        <a href="product.html"><img src="images/dummy/products/product-3.jpg" alt="" width="540" height="374" /></a>
+                                        <div class="img-overlay">
+                                            <a class="btn more btn-primary" href="product.html">More</a>
+                                            <a href="#" class="btn buy btn-danger">Add to Cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="main-titles no-margin">
+                                    <h4 class="title"><span class="striked">$32</span> <span class="red-clr">$29</span></h4>
+                                    <h5 class="no-margin">Adidas Converse 552</h5>
+                                </div>
+                                <p class="desc">59% Cotton Lorem Ipsum Dolor Sit Amet esed ultrices sapien nunc nam frignila</p>
+                                <p class="center-align stars">
+                                    <span class="icon-star stars-clr"></span>
+                                    <span class="icon-star stars-clr"></span>
+                                    <span class="icon-star stars-clr"></span>
+                                    <span class="icon-star stars-clr"></span>
+                                    <span class="icon-star"></span>
+                                </p>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
 
 
 
-            <div class="row">
-                <div class="span12">
-                    <div class="brands  carouFredSel" data-nav="brands" data-autoplay="true">
-                        <a href="http://www.proteusthemes.com/"><img src="images/dummy/brands/brands_01.jpg" alt="" width="203" height="104" /></a>
-                        <a href="http://www.proteusthemes.com/"><img src="images/dummy/brands/brands_02.jpg" alt="" width="203" height="104" /></a>
-                        <a href="http://www.proteusthemes.com/"><img src="images/dummy/brands/brands_03.jpg" alt="" width="203" height="104" /></a>
-                        <a href="http://www.proteusthemes.com/"><img src="images/dummy/brands/brands_04.jpg" alt="" width="203" height="104" /></a>
-                        <a href="http://www.proteusthemes.com/"><img src="images/dummy/brands/brands_05.jpg" alt="" width="203" height="104" /></a>
-                        <a href="http://www.proteusthemes.com/"><img src="images/dummy/brands/brands_06.jpg" alt="" width="203" height="104" /></a>
+                    <div class="span3">
+                        <div class="product">
+                            <div class="product-inner">
+                                <div class="product-img">
+                                    <div class="picture">
+                                        <a href="product.html"><img src="images/dummy/products/product-4.jpg" alt="" width="540" height="374" /></a>
+                                        <div class="img-overlay">
+                                            <a class="btn more btn-primary" href="product.html">More</a>
+                                            <a href="#" class="btn buy btn-danger">Add to Cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="main-titles no-margin">
+                                    <h4 class="title"><span class="striked">$32</span> <span class="red-clr">$29</span></h4>
+                                    <h5 class="no-margin">Adidas Converse 552</h5>
+                                </div>
+                                <p class="desc">59% Cotton Lorem Ipsum Dolor Sit Amet esed ultrices sapien nunc nam frignila</p>
+                                <p class="center-align stars">
+                                    <span class="icon-star stars-clr"></span>
+                                    <span class="icon-star stars-clr"></span>
+                                    <span class="icon-star stars-clr"></span>
+                                    <span class="icon-star stars-clr"></span>
+                                    <span class="icon-star"></span>
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1054,6 +942,6 @@
     <script src="js/custom.js" type="text/javascript"></script>
 </body>
 
-<!-- Mirrored from www.proteusthemes.com/themes/webmarket-html/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 09 Aug 2015 15:10:09 GMT -->
+<!-- Mirrored from www.proteusthemes.com/themes/webmarket-html/product.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 09 Aug 2015 15:43:12 GMT -->
 
 </html>

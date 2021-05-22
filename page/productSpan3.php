@@ -1,5 +1,5 @@
 <?php
-$sql = "SELECT * FROM sanpham";
+$sql = "SELECT * FROM sanpham ORDER BY RAND() LIMIT 8";
 $sql_query = mysqli_query($mysqli, $sql);
 ?>
 
@@ -11,9 +11,9 @@ while ($row = mysqli_fetch_array($sql_query)) {
             <div class="product-inner">
                 <div class="product-img">
                     <div class="picture">
-                        <a href="product.html"><img src="admincp/moudules/quanlysanpham/uploadImg/<?php echo $row['hinhanh'] ?>" alt="" width="540" height="374" /></a>
+                        <a href="product.php?idsanpham=<?php echo $row['id_sanpham'] ?>"><img src="admincp/moudules/quanlysanpham/uploadImg/<?php echo $row['hinhanh'] ?>" alt="" width="540" height="374" /></a>
                         <div class="img-overlay">
-                            <a href="product.html" class="btn more btn-primary">More</a>
+                            <a href="product.php?idsanpham=<?php echo $row['id_sanpham'] ?>" class="btn more btn-primary">More</a>
                             <a href="#" class="btn buy btn-danger">Add to Cart</a>
                         </div>
                     </div>
