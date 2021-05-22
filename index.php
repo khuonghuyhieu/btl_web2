@@ -52,6 +52,9 @@
 </head>
 
 <body class="">
+    <?php
+    include('admincp/config/connect.php');
+    ?>
     <div class="master-wrapper">
         <header id="header">
             <div class="darker-row">
@@ -592,7 +595,7 @@
                             <div class="row">
                                 <!-- span4 -->
                                 <?php
-                                include("page/productSpan4.php")
+                                include("page/productSpan4.php");
                                 ?>
 
                             </div>
@@ -601,7 +604,7 @@
                             <div class="row">
                                 <!-- span4 -->
                                 <?php
-                                include("page/productSpan4.php")
+                                include("page/productSpan4.php");
                                 ?>
 
                             </div>
@@ -626,294 +629,11 @@
                     </div>
                 </div>
                 <div class="row popup-products blocks-spacer">
-
-
-
-                    <div class="span3">
-                        <div class="product">
-                            <div class="product-inner">
-                                <div class="product-img">
-                                    <div class="picture">
-                                        <a href="product.html"><img src="images/dummy/products/product-6.jpg" alt="" width="540" height="374" /></a>
-                                        <div class="img-overlay">
-                                            <a href="product.html" class="btn more btn-primary">More</a>
-                                            <a href="#" class="btn buy btn-danger">Add to Cart</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="main-titles no-margin">
-                                    <h4 class="title">$32</h4>
-                                    <h5 class="no-margin">Horsefeathers 475</h5>
-                                </div>
-                                <p class="desc">59% Cotton Lorem Ipsum Dolor Sit Amet esed ultrices sapien nunc nam frignila</p>
-                                <div class="row-fluid hidden-line">
-                                    <div class="span6">
-                                        <a href="#" class="btn btn-small"><i class="icon-heart"></i></a>
-                                        <a href="#" class="btn btn-small"><i class="icon-exchange"></i></a>
-                                    </div>
-                                    <div class="span6 align-right">
-                                        <span class="icon-star stars-clr"></span>
-                                        <span class="icon-star stars-clr"></span>
-                                        <span class="icon-star stars-clr"></span>
-                                        <span class="icon-star stars-clr"></span>
-                                        <span class="icon-star stars-clr"></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-
-                    <div class="span3">
-                        <div class="product">
-                            <div class="product-inner">
-                                <div class="product-img">
-                                    <div class="picture">
-                                        <a href="product.html"><img src="images/dummy/products/product-7.jpg" alt="" width="540" height="374" /></a>
-                                        <div class="img-overlay">
-                                            <a href="product.html" class="btn more btn-primary">More</a>
-                                            <a href="#" class="btn buy btn-danger">Add to Cart</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="main-titles no-margin">
-                                    <h4 class="title">$32</h4>
-                                    <h5 class="no-margin">Horsefeathers 120</h5>
-                                </div>
-                                <p class="desc">59% Cotton Lorem Ipsum Dolor Sit Amet esed ultrices sapien nunc nam frignila</p>
-                                <div class="row-fluid hidden-line">
-                                    <div class="span6">
-                                        <a href="#" class="btn btn-small"><i class="icon-heart"></i></a>
-                                        <a href="#" class="btn btn-small"><i class="icon-exchange"></i></a>
-                                    </div>
-                                    <div class="span6 align-right">
-                                        <span class="icon-star stars-clr"></span>
-                                        <span class="icon-star stars-clr"></span>
-                                        <span class="icon-star"></span>
-                                        <span class="icon-star"></span>
-                                        <span class="icon-star"></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-
-                    <div class="span3">
-                        <div class="product">
-                            <div class="product-inner">
-                                <div class="product-img">
-                                    <div class="picture">
-                                        <a href="product.html"><img src="images/dummy/products/product-8.jpg" alt="" width="540" height="374" /></a>
-                                        <div class="img-overlay">
-                                            <a href="product.html" class="btn more btn-primary">More</a>
-                                            <a href="#" class="btn buy btn-danger">Add to Cart</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="main-titles no-margin">
-                                    <h4 class="title">$32</h4>
-                                    <h5 class="no-margin">Horsefeathers 86</h5>
-                                </div>
-                                <p class="desc">59% Cotton Lorem Ipsum Dolor Sit Amet esed ultrices sapien nunc nam frignila</p>
-                                <div class="row-fluid hidden-line">
-                                    <div class="span6">
-                                        <a href="#" class="btn btn-small"><i class="icon-heart"></i></a>
-                                        <a href="#" class="btn btn-small"><i class="icon-exchange"></i></a>
-                                    </div>
-                                    <div class="span6 align-right">
-                                        <span class="icon-star stars-clr"></span>
-                                        <span class="icon-star stars-clr"></span>
-                                        <span class="icon-star stars-clr"></span>
-                                        <span class="icon-star stars-clr"></span>
-                                        <span class="icon-star stars-clr"></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-
-                    <div class="span3">
-                        <div class="product">
-                            <div class="product-inner">
-                                <div class="product-img">
-                                    <div class="picture">
-                                        <a href="product.html"><img src="images/dummy/products/product-9.jpg" alt="" width="540" height="374" /></a>
-                                        <div class="img-overlay">
-                                            <a href="product.html" class="btn more btn-primary">More</a>
-                                            <a href="#" class="btn buy btn-danger">Add to Cart</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="main-titles no-margin">
-                                    <h4 class="title">$32</h4>
-                                    <h5 class="no-margin">Horsefeathers 66</h5>
-                                </div>
-                                <p class="desc">59% Cotton Lorem Ipsum Dolor Sit Amet esed ultrices sapien nunc nam frignila</p>
-                                <div class="row-fluid hidden-line">
-                                    <div class="span6">
-                                        <a href="#" class="btn btn-small"><i class="icon-heart"></i></a>
-                                        <a href="#" class="btn btn-small"><i class="icon-exchange"></i></a>
-                                    </div>
-                                    <div class="span6 align-right">
-                                        <span class="icon-star stars-clr"></span>
-                                        <span class="icon-star stars-clr"></span>
-                                        <span class="icon-star stars-clr"></span>
-                                        <span class="icon-star stars-clr"></span>
-                                        <span class="icon-star"></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <?php
+                    include("page/productSpan3.php")
+                    ?>
                     <div class="clearfix"></div>
 
-
-                    <div class="span3">
-                        <div class="product">
-                            <div class="product-inner">
-                                <div class="product-img">
-                                    <div class="picture">
-                                        <a href="product.html"><img src="images/dummy/products/product-10.jpg" alt="" width="540" height="374" /></a>
-                                        <div class="img-overlay">
-                                            <a href="product.html" class="btn more btn-primary">More</a>
-                                            <a href="#" class="btn buy btn-danger">Add to Cart</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="main-titles no-margin">
-                                    <h4 class="title">$32</h4>
-                                    <h5 class="no-margin">Horsefeathers 78</h5>
-                                </div>
-                                <p class="desc">59% Cotton Lorem Ipsum Dolor Sit Amet esed ultrices sapien nunc nam frignila</p>
-                                <div class="row-fluid hidden-line">
-                                    <div class="span6">
-                                        <a href="#" class="btn btn-small"><i class="icon-heart"></i></a>
-                                        <a href="#" class="btn btn-small"><i class="icon-exchange"></i></a>
-                                    </div>
-                                    <div class="span6 align-right">
-                                        <span class="icon-star stars-clr"></span>
-                                        <span class="icon-star stars-clr"></span>
-                                        <span class="icon-star stars-clr"></span>
-                                        <span class="icon-star stars-clr"></span>
-                                        <span class="icon-star stars-clr"></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-
-                    <div class="span3">
-                        <div class="product">
-                            <div class="product-inner">
-                                <div class="product-img">
-                                    <div class="picture">
-                                        <a href="product.html"><img src="images/dummy/products/product-11.jpg" alt="" width="540" height="374" /></a>
-                                        <div class="img-overlay">
-                                            <a href="product.html" class="btn more btn-primary">More</a>
-                                            <a href="#" class="btn buy btn-danger">Add to Cart</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="main-titles no-margin">
-                                    <h4 class="title">$32</h4>
-                                    <h5 class="no-margin">Horsefeathers 223</h5>
-                                </div>
-                                <p class="desc">59% Cotton Lorem Ipsum Dolor Sit Amet esed ultrices sapien nunc nam frignila</p>
-                                <div class="row-fluid hidden-line">
-                                    <div class="span6">
-                                        <a href="#" class="btn btn-small"><i class="icon-heart"></i></a>
-                                        <a href="#" class="btn btn-small"><i class="icon-exchange"></i></a>
-                                    </div>
-                                    <div class="span6 align-right">
-                                        <span class="icon-star stars-clr"></span>
-                                        <span class="icon-star stars-clr"></span>
-                                        <span class="icon-star"></span>
-                                        <span class="icon-star"></span>
-                                        <span class="icon-star"></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-
-                    <div class="span3">
-                        <div class="product">
-                            <div class="product-inner">
-                                <div class="product-img">
-                                    <div class="picture">
-                                        <a href="product.html"><img src="images/dummy/products/product-12.jpg" alt="" width="540" height="374" /></a>
-                                        <div class="img-overlay">
-                                            <a href="product.html" class="btn more btn-primary">More</a>
-                                            <a href="#" class="btn buy btn-danger">Add to Cart</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="main-titles no-margin">
-                                    <h4 class="title">$32</h4>
-                                    <h5 class="no-margin">Horsefeathers 309</h5>
-                                </div>
-                                <p class="desc">59% Cotton Lorem Ipsum Dolor Sit Amet esed ultrices sapien nunc nam frignila</p>
-                                <div class="row-fluid hidden-line">
-                                    <div class="span6">
-                                        <a href="#" class="btn btn-small"><i class="icon-heart"></i></a>
-                                        <a href="#" class="btn btn-small"><i class="icon-exchange"></i></a>
-                                    </div>
-                                    <div class="span6 align-right">
-                                        <span class="icon-star stars-clr"></span>
-                                        <span class="icon-star stars-clr"></span>
-                                        <span class="icon-star stars-clr"></span>
-                                        <span class="icon-star"></span>
-                                        <span class="icon-star"></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-
-                    <div class="span3">
-                        <div class="product">
-                            <div class="product-inner">
-                                <div class="product-img">
-                                    <div class="picture">
-                                        <a href="product.html"><img src="images/dummy/products/product-13.jpg" alt="" width="540" height="374" /></a>
-                                        <div class="img-overlay">
-                                            <a href="product.html" class="btn more btn-primary">More</a>
-                                            <a href="#" class="btn buy btn-danger">Add to Cart</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="main-titles no-margin">
-                                    <h4 class="title">$32</h4>
-                                    <h5 class="no-margin">Horsefeathers 432</h5>
-                                </div>
-                                <p class="desc">59% Cotton Lorem Ipsum Dolor Sit Amet esed ultrices sapien nunc nam frignila</p>
-                                <div class="row-fluid hidden-line">
-                                    <div class="span6">
-                                        <a href="#" class="btn btn-small"><i class="icon-heart"></i></a>
-                                        <a href="#" class="btn btn-small"><i class="icon-exchange"></i></a>
-                                    </div>
-                                    <div class="span6 align-right">
-                                        <span class="icon-star stars-clr"></span>
-                                        <span class="icon-star"></span>
-                                        <span class="icon-star"></span>
-                                        <span class="icon-star"></span>
-                                        <span class="icon-star"></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
@@ -933,150 +653,9 @@
                     </div>
                 </div>
                 <div class="row popup-products">
-
-
-
-                    <div class="span3">
-                        <div class="product">
-                            <div class="product-inner">
-                                <div class="product-img">
-                                    <div class="picture">
-                                        <a href="product.html"><img src="images/dummy/most-popular-products/popular-1.jpg" alt="" width="540" height="412" /></a>
-                                        <div class="img-overlay">
-                                            <a href="product.html" class="btn more btn-primary">More</a>
-                                            <a href="#" class="btn buy btn-danger">Add to Cart</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="main-titles no-margin">
-                                    <h4 class="title">$32</h4>
-                                    <h5 class="no-margin">Horsefeathers 169</h5>
-                                </div>
-                                <p class="desc">59% Cotton Lorem Ipsum Dolor Sit Amet esed ultrices sapien nunc nam frignila</p>
-                                <div class="row-fluid hidden-line">
-                                    <div class="span6">
-                                        <a href="#" class="btn btn-small"><i class="icon-heart"></i></a>
-                                        <a href="#" class="btn btn-small"><i class="icon-exchange"></i></a>
-                                    </div>
-                                    <div class="span6 align-right">
-                                        <span class="icon-star stars-clr"></span>
-                                        <span class="icon-star"></span>
-                                        <span class="icon-star"></span>
-                                        <span class="icon-star"></span>
-                                        <span class="icon-star"></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-
-                    <div class="span3">
-                        <div class="product">
-                            <div class="product-inner">
-                                <div class="product-img">
-                                    <div class="picture">
-                                        <a href="product.html"><img src="images/dummy/most-popular-products/popular-2.jpg" alt="" width="540" height="412" /></a>
-                                        <div class="img-overlay">
-                                            <a href="product.html" class="btn more btn-primary">More</a>
-                                            <a href="#" class="btn buy btn-danger">Add to Cart</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="main-titles no-margin">
-                                    <h4 class="title">$32</h4>
-                                    <h5 class="no-margin">Horsefeathers 222</h5>
-                                </div>
-                                <p class="desc">59% Cotton Lorem Ipsum Dolor Sit Amet esed ultrices sapien nunc nam frignila</p>
-                                <div class="row-fluid hidden-line">
-                                    <div class="span6">
-                                        <a href="#" class="btn btn-small"><i class="icon-heart"></i></a>
-                                        <a href="#" class="btn btn-small"><i class="icon-exchange"></i></a>
-                                    </div>
-                                    <div class="span6 align-right">
-                                        <span class="icon-star stars-clr"></span>
-                                        <span class="icon-star stars-clr"></span>
-                                        <span class="icon-star stars-clr"></span>
-                                        <span class="icon-star stars-clr"></span>
-                                        <span class="icon-star"></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-
-                    <div class="span3">
-                        <div class="product">
-                            <div class="product-inner">
-                                <div class="product-img">
-                                    <div class="picture">
-                                        <a href="product.html"><img src="images/dummy/most-popular-products/popular-3.jpg" alt="" width="540" height="412" /></a>
-                                        <div class="img-overlay">
-                                            <a href="product.html" class="btn more btn-primary">More</a>
-                                            <a href="#" class="btn buy btn-danger">Add to Cart</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="main-titles no-margin">
-                                    <h4 class="title">$32</h4>
-                                    <h5 class="no-margin">Horsefeathers 166</h5>
-                                </div>
-                                <p class="desc">59% Cotton Lorem Ipsum Dolor Sit Amet esed ultrices sapien nunc nam frignila</p>
-                                <div class="row-fluid hidden-line">
-                                    <div class="span6">
-                                        <a href="#" class="btn btn-small"><i class="icon-heart"></i></a>
-                                        <a href="#" class="btn btn-small"><i class="icon-exchange"></i></a>
-                                    </div>
-                                    <div class="span6 align-right">
-                                        <span class="icon-star stars-clr"></span>
-                                        <span class="icon-star stars-clr"></span>
-                                        <span class="icon-star stars-clr"></span>
-                                        <span class="icon-star stars-clr"></span>
-                                        <span class="icon-star"></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-
-                    <div class="span3">
-                        <div class="product">
-                            <div class="product-inner">
-                                <div class="product-img">
-                                    <div class="picture">
-                                        <a href="product.html"><img src="images/dummy/most-popular-products/popular-4.jpg" alt="" width="540" height="412" /></a>
-                                        <div class="img-overlay">
-                                            <a href="product.html" class="btn more btn-primary">More</a>
-                                            <a href="#" class="btn buy btn-danger">Add to Cart</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="main-titles no-margin">
-                                    <h4 class="title">$32</h4>
-                                    <h5 class="no-margin">Horsefeathers 338</h5>
-                                </div>
-                                <p class="desc">59% Cotton Lorem Ipsum Dolor Sit Amet esed ultrices sapien nunc nam frignila</p>
-                                <div class="row-fluid hidden-line">
-                                    <div class="span6">
-                                        <a href="#" class="btn btn-small"><i class="icon-heart"></i></a>
-                                        <a href="#" class="btn btn-small"><i class="icon-exchange"></i></a>
-                                    </div>
-                                    <div class="span6 align-right">
-                                        <span class="icon-star stars-clr"></span>
-                                        <span class="icon-star stars-clr"></span>
-                                        <span class="icon-star stars-clr"></span>
-                                        <span class="icon-star"></span>
-                                        <span class="icon-star"></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <?php
+                    include("page/productSpan3.php");
+                    ?>
                 </div>
             </div>
         </div>

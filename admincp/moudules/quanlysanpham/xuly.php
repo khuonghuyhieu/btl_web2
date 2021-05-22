@@ -29,6 +29,7 @@ if (isset($_POST['themsanpham'])) {
 
         $sql_update = "UPDATE sanpham SET masp='" . $masp . "',tensp='" . $tensp . "',giasp='" . $gia . "',hinhanh='" . $img . "',noidung='" . $content . "' WHERE id_sanpham='$_GET[idsanpham]'";
     } else {
+        move_uploaded_file($img_tmp, 'uploadImg/' . $img);
         $sql_update = "UPDATE sanpham SET masp='" . $masp . "',tensp='" . $tensp . "',giasp='" . $gia . "',noidung='" . $content . "' WHERE id_sanpham='$_GET[idsanpham]'";
     }
     mysqli_query($mysqli, $sql_update);
