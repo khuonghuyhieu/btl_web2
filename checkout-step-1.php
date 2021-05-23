@@ -4,9 +4,9 @@ session_start();
 
 <?php
 if (isset($_SESSION['cart'])) {
-    echo '<pre>';
-    print_r($_SESSION['cart']);
-    echo '</pre>';
+    // echo '<pre>';
+    // print_r($_SESSION['cart']);
+    // echo '</pre>';
 }
 ?>
 <!DOCTYPE html>
@@ -79,7 +79,7 @@ if (isset($_SESSION['cart'])) {
                                 <header>
                                     <div class="row">
                                         <div class="span2">
-                                            <a href="index-2.html"><img src="images/logo-bw.png" alt="Webmarket Logo" width="48" height="48" /></a>
+                                            <a href="index.php"><img src="images/logo-bw.png" alt="Webmarket Logo" width="48" height="48" /></a>
                                         </div>
                                         <div class="span6">
                                             <div class="center-align">
@@ -117,8 +117,15 @@ if (isset($_SESSION['cart'])) {
                                     </div>
                                 </div>
 
+                                <?php
 
+                                // if (isset($_SESSION['cart'])) {
+                                //     $i = 0;
+                                //     foreach ($_SESSION['cart'] as $cart_item) {
+                                //     }
+                                // }
 
+                                ?>
                                 <table class="table table-items">
                                     <thead>
                                         <tr>
@@ -132,74 +139,9 @@ if (isset($_SESSION['cart'])) {
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        <tr>
-                                            <td class="image"><img src="images/dummy/cart-items/cart-item-1.jpg" alt="" width="124" height="124" /></td>
-                                            <td class="desc">Adidas Converse Lorem Ipsum Dolor sit &nbsp; <a title="Remove Item" class="icon-remove-sign" href="#"></a></td>
-                                            <td class="qty">
-                                                <input type="text" class="tiny-size" value="2" />
-                                            </td>
-                                            <td class="price">
-                                                $59
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="image"><img src="images/dummy/cart-items/cart-item-2.jpg" alt="" width="124" height="124" /></td>
-                                            <td class="desc">Adidas Converse Lorem Ipsum Dolor sit &nbsp; <a title="Remove Item" class="icon-remove-sign" href="#"></a></td>
-                                            <td class="qty">
-                                                <input type="text" class="tiny-size" value="3" />
-                                            </td>
-                                            <td class="price">
-                                                $59
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="image"><img src="images/dummy/cart-items/cart-item-3.jpg" alt="" width="124" height="124" /></td>
-                                            <td class="desc">Adidas Converse Lorem Ipsum Dolor sit &nbsp; <a title="Remove Item" class="icon-remove-sign" href="#"></a></td>
-                                            <td class="qty">
-                                                <input type="text" class="tiny-size" value="3" />
-                                            </td>
-                                            <td class="price">
-                                                $59
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="image"><img src="images/dummy/cart-items/cart-item-4.jpg" alt="" width="124" height="124" /></td>
-                                            <td class="desc">Adidas Converse Lorem Ipsum Dolor sit &nbsp; <a title="Remove Item" class="icon-remove-sign" href="#"></a></td>
-                                            <td class="qty">
-                                                <input type="text" class="tiny-size" value="3" />
-                                            </td>
-                                            <td class="price">
-                                                $59
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="image"><img src="images/dummy/cart-items/cart-item-5.jpg" alt="" width="124" height="124" /></td>
-                                            <td class="desc">Adidas Converse Lorem Ipsum Dolor sit &nbsp; <a title="Remove Item" class="icon-remove-sign" href="#"></a></td>
-                                            <td class="qty">
-                                                <input type="text" class="tiny-size" value="3" />
-                                            </td>
-                                            <td class="price">
-                                                $59
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td colspan="2" rowspan="2">
-                                                <div class="alert alert-info">
-                                                    <button data-dismiss="alert" class="close" type="button">×</button>
-                                                    Shipping costs are calculated based on location. <a href="#">More information</a>
-                                                </div>
-                                            </td>
-                                            <td class="stronger">Shipping:</td>
-                                            <td class="stronger">
-                                                <div class="align-right">$4.99</div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="stronger">Subtotal:</td>
-                                            <td class="stronger">
-                                                <div class="size-16 align-right">$357.81</div>
-                                            </td>
-                                        </tr>
+                                        <?php
+                                        include('page/cartProducts.php')
+                                        ?>
                                     </tbody>
                                 </table>
                                 <hr />

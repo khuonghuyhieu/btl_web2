@@ -52,14 +52,13 @@ while ($row = mysqli_fetch_array($sql_query)) {
 
 
 
-                    <form action="#" class="form form-inline clearfix">
-                        <div class="numbered">
-                            <input type="text" name="num" value="<?php echo $row['soluong'] ?>" class="tiny-size" />
-                            <span class="clickable add-one icon-plus-sign-alt"></span>
-                            <span class="clickable remove-one icon-minus-sign-alt"></span>
-                        </div>
-                        <button class="btn btn-danger pull-right" name="themgiohang"><i class="icon-shopping-cart"></i> &nbsp; Add To Cart</button>
-                    </form>
+                    <!-- <form action="#" class="form form-inline clearfix"> -->
+                    <div class="numbered">
+                        <input min="1" type="number" name="num" value="1" class="tiny-size" style="width: 45px" />
+
+                    </div>
+                    <button class="btn btn-danger pull-right" name="themgiohang"><i class="icon-shopping-cart"></i> &nbsp; Add To Cart</button>
+                    <!-- </form> -->
                     <hr />
 
 
