@@ -13,7 +13,6 @@ while ($row = mysqli_fetch_array($sql_query)) {
                     <a href="product.php?idsanpham=<?php echo $row['id_sanpham'] ?>"><img src="admincp/moudules/quanlysanpham/uploadImg/<?php echo $row['hinhanh'] ?>" alt="" width="518" height="358" /></a>
                     <div class="img-overlay">
                         <a href="product.php?idsanpham=<?php echo $row['id_sanpham'] ?>" class="btn more btn-primary">More</a>
-                        <a href="#" class="btn buy btn-danger">Buy</a>
                     </div>
                 </div>
             </div>
