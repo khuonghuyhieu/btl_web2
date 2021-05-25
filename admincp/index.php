@@ -12,6 +12,7 @@
 <body>
     <h1>Wellcome To Admin Page</h1>
     <div class="wrap">
+        <a class="button_home" href="../index.php">Trang chủ</a>
         <?php
         include("config/connect.php");
         include("moudules/menu.php");

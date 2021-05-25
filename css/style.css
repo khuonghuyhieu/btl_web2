@@ -35,3 +35,12 @@ td {
 input {
 	padding: 5px;
 }
+
+.button_home {
+	float: right;
+	text-decoration: none;
+	color: #000;
+	margin: 5px 10px;
+	border: 1px solid red;
+	padding: 10px;
+}

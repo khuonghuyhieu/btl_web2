@@ -2,13 +2,6 @@
 session_start();
 ?>
 
-<?php
-if (isset($_SESSION['cart'])) {
-    // echo '<pre>';
-    // print_r($_SESSION['cart']);
-    // echo '</pre>';
-}
-?>
 <!DOCTYPE html>
 <!--[if lt IE 8]>      <html class="no-js lt-ie10 lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie10 lt-ie9"> <![endif]-->
@@ -17,11 +10,11 @@ if (isset($_SESSION['cart'])) {
 <html class="no-js">
 <!--<![endif]-->
 
-<!-- Mirrored from www.proteusthemes.com/themes/webmarket-html/checkout-step-1.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 09 Aug 2015 15:42:38 GMT -->
+<!-- Mirrored from www.proteusthemes.com/themes/webmarket-html/checkout-step-4.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 09 Aug 2015 15:57:17 GMT -->
 
 <head>
     <meta charset="utf-8">
-    <title>Webmarket HTML Template - Checkout Step 1</title>
+    <title>Webmarket HTML Template - Checkout Step 4</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="ProteusThemes">
@@ -79,11 +72,11 @@ if (isset($_SESSION['cart'])) {
                                 <header>
                                     <div class="row">
                                         <div class="span2">
-                                            <a href="index.php"><img src="images/logo-bw.png" alt="Webmarket Logo" width="48" height="48" /></a>
+                                            <a href="index-2.html"><img src="images/logo-bw.png" alt="Webmarket Logo" width="48" height="48" /></a>
                                         </div>
                                         <div class="span6">
                                             <div class="center-align">
-                                                <h1><span class="light">Review</span> Shopping Cart</h1>
+                                                <h1><span class="light">Confirm</span> &amp; Pay</h1>
                                             </div>
                                         </div>
                                         <div class="span2">
@@ -98,21 +91,19 @@ if (isset($_SESSION['cart'])) {
 
                                 <div class="checkout-steps">
                                     <div class="clearfix">
-                                        <div class="step active">
-                                            <div class="step-badge">1</div>
-                                            Shopping Cart
+                                        <div class="step done">
+                                            <div class="step-badge"><i class="icon-ok"></i></div>
+                                            <a href="checkout-step-1.html">Shopping Cart</a>
                                         </div>
-                                        <div class="step">
+                                        <div class="step active">
                                             <div class="step-badge">2</div>
                                             Confirm &amp; Pay
                                         </div>
                                     </div>
                                 </div>
 
-                                <?php
 
 
-                                ?>
                                 <table class="table table-items">
                                     <thead>
                                         <tr>
@@ -131,10 +122,8 @@ if (isset($_SESSION['cart'])) {
                                         ?>
                                     </tbody>
                                 </table>
-                                <hr />
                                 <p class="right-align">
-                                    In the next step you will choose your shipping address &nbsp; &nbsp;
-                                    <a href="checkout-step-4.php" class="btn btn-primary higher bold">CONTINUE</a>
+                                    <a href="page/payment.php" name="payment" class="btn btn-primary higher bold">CONFIRM &amp; PAY</a>
                                 </p>
                             </div>
                         </div>
@@ -190,6 +179,6 @@ if (isset($_SESSION['cart'])) {
     <script src="js/custom.js" type="text/javascript"></script>
 </body>
 
-<!-- Mirrored from www.proteusthemes.com/themes/webmarket-html/checkout-step-1.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 09 Aug 2015 15:42:43 GMT -->
+<!-- Mirrored from www.proteusthemes.com/themes/webmarket-html/checkout-step-4.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 09 Aug 2015 15:57:17 GMT -->
 
 </html>

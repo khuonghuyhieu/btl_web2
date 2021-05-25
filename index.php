@@ -1,3 +1,7 @@
+<?php
+ob_start();
+?>
+
 <!DOCTYPE html>
 <!--[if lt IE 8]>      <html class="no-js lt-ie10 lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie10 lt-ie9"> <![endif]-->
@@ -833,32 +837,31 @@
         </footer>
 
 
-
         <?php
         session_start();
         include('admincp/config/connect.php');
         if (isset($_POST['login'])) {
             $account = $_POST['username'];
-            $pass = md5($_POST['password']);
-            $sql = "SELECT * FROM admin WHERE username='" . $account . "' AND password='" . $pass . "' LIMIT 1";
+            $pass = md5($_POST['pass']);
+            $sql = "SELECT * FROM tbl_admin WHERE username='" . $account . "' AND pass='" . $pass . "' LIMIT 1";
             $query = mysqli_query($mysqli, $sql);
-            $row = mysqli_fetch_row($query);
+            $row = mysqli_num_rows($query);
             if ($row > 0) {
                 $_SESSION['login'] = $account;
-                header("Location: admincp/index.php");
+                header("Location: ./admincp/index.php");
             } else {
                 echo '<script>alert("Tài khoản không tồn tại !!!!!")</script>';
                 header("Location: index.php");
             }
         }
         ?>
-
         <div id="loginModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
                 <h3 id="loginModalLabel"><span class="light">Login</span> To Webmarket</h3>
             </div>
             <div class="modal-body">
+
                 <form method="post" action="#" autocomplete="off">
                     <div class="control-group">
                         <label class="control-label hidden shown-ie8" for="inputEmail">Username</label>
@@ -869,7 +872,7 @@
                     <div class="control-group">
                         <label class="control-label hidden shown-ie8" for="inputPassword">Password</label>
                         <div class="controls">
-                            <input type="password" name="password" class="input-block-level" id="inputPassword" placeholder="Password" required>
+                            <input type="password" name="pass" class="input-block-level" id="inputPassword" placeholder="Password" required>
                         </div>
                     </div>
                     <div class="control-group">
@@ -880,10 +883,13 @@
                             </label>
                         </div>
                     </div>
-                    <button type="submit" class="btn btn-primary input-block-level bold higher" name="login">
-                        SIGN IN
-                    </button>
+                    <input type="submit" class="btn btn-primary input-block-level bold higher" name="login">
+                    SIGN IN
+                    </input>
                 </form>
+
+
+
                 <p class="center-align push-down-0">
                     <a data-toggle="modal" role="button" href="#forgotPassModal" data-dismiss="modal">Forgot your password?</a>
                 </p>

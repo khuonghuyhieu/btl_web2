@@ -13,6 +13,10 @@
         include('moudules/quanlysanpham/lietke.php');
     } else if ($tam == 'quanlysanpham' && $query == 'sua') {
         include('moudules/quanlysanpham/sua.php');
+    } else if ($tam == 'quanlydonhang' && $query == 'lietke') {
+        include('moudules/quanlydonhang/lietke.php');
+    } else if ($tam == 'donhang' && $query == 'xemdonhang') {
+        include('moudules/quanlydonhang/xemdonhang.php');
     } else {
         include("moudules/dashboard.php");
     }
