@@ -18,7 +18,7 @@ if (isset($_POST['themsanpham'])) {
     header('Location:../../index.php?action=quanlysanpham&query=them');
 } else if (isset($_POST['suasanpham'])) {
     //sua
-    if (!$img) {
+    if ($img != '') {
         move_uploaded_file($img_tmp, 'uploadImg/' . $img);
 
         $sql = "SELECT * FROM sanpham WHERE id_sanpham='$_GET[idsanpham]' LIMIT 1";

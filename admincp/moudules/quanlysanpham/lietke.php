@@ -26,7 +26,10 @@ $query_lietke_sp = mysqli_query($mysqli, $sql_lietke_sp);
             <td><?php echo $row['giasp'] ?></td>
             <td> <img src="moudules/quanlysanpham/uploadImg/<?php echo $row['hinhanh'] ?>" width="150px"> </td>
             <td><?php echo $row['noidung'] ?></td>
-            <td><a href="moudules/quanlysanpham/xuly.php?idsanpham=<?php echo $row['id_sanpham'] ?>">Xóa</a> | <a href="?action=quanlysanpham&query=sua&idsanpham=<?php echo $row['id_sanpham'] ?>">Sửa</a></td>
+            <td>
+                <a href="moudules/quanlysanpham/xuly.php?idsanpham=<?php echo $row['id_sanpham'] ?>">Xóa</a> |
+                <a href="?action=quanlysanpham&query=sua&idsanpham=<?php echo $row['id_sanpham'] ?>">Sửa</a>
+            </td>
         </tr>
     <?php
     }

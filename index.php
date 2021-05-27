@@ -560,12 +560,11 @@ ob_start();
                     </div>
                 </div>
                 <div class="row popup-products blocks-spacer">
+                    <!-- span3 -->
                     <?php
                     include("page/productSpan3.php")
                     ?>
                     <div class="clearfix"></div>
-                    <?php
-                    ?>
 
                 </div>
             </div>

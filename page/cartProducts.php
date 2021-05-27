@@ -8,7 +8,9 @@ if (isset($_SESSION['cart'])) {
 ?>
         <tr>
             <td class="image"><img src="admincp/moudules/quanlysanpham/uploadImg/<?php echo $cart_item['hinhanh']; ?>" alt="" width="124" height="124" /></td>
-            <td class="desc"><?php echo $cart_item['tensp']; ?> &nbsp;&nbsp;&nbsp;&nbsp; <a href="page/xuLyThemGioHang.php?delete=<?php echo $cart_item['id_sanpham'] ?>">Xóa</a></td>
+            <td class="desc"><?php echo $cart_item['tensp']; ?> &nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="page/xuLyThemGioHang.php?delete=<?php echo $cart_item['id_sanpham'] ?>">Xóa</a>
+            </td>
             <td class="qty">
                 <input type="text" class="tiny-size" value="<?php echo $cart_item['soluong']; ?>" />
             </td>
